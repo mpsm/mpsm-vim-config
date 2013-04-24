@@ -16,3 +16,6 @@ set t_Co=256
 " APPEARANCE "
 syntax on
 let g:Powerline_symbols = 'fancy'
+
+" filetype specific "
+filetype plugin indent on
