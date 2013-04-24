@@ -17,6 +17,7 @@ set t_Co=256
 syntax on
 let g:Powerline_symbols = 'fancy'
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
+colorscheme wombat
 
 " filetype specific "
 filetype plugin indent on
