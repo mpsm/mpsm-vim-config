@@ -1,6 +1,9 @@
 " VIM settings "
 set nocompatible
 
+" PLUGIN MANAGEMENT "
+call pathogen#infect() 
+
 " GENERAL "
 set novb
 set mouse=a
