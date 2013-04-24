@@ -18,6 +18,7 @@ if version >= 700
   hi CursorColumn guibg=#2d2d2d
   hi MatchParen guifg=#f6f3e8 guibg=#857b6f gui=bold
   hi Pmenu 		guifg=#f6f3e8 guibg=#444444
+  hi PmenuSbar	guifg=#f6f3e8 guibg=#444444
   hi PmenuSel 	guifg=#000000 guibg=#cae682
 endif
 
@@ -33,6 +34,7 @@ hi Folded 		guibg=#384048 guifg=#a0a8b0 gui=none
 hi Title		guifg=#f6f3e8 guibg=NONE	gui=bold
 hi Visual		guifg=#f6f3e8 guibg=#444444 gui=none
 hi SpecialKey	guifg=#808080 guibg=#343434 gui=none
+hi FoldColumn	guifg=#857b6f guibg=#000000 gui=none
 
 " Syntax highlighting
 hi Comment 		guifg=#99968b gui=italic
@@ -48,4 +50,5 @@ hi PreProc 		guifg=#e5786d gui=none
 hi Number		guifg=#e5786d gui=none
 hi Special		guifg=#e7f6da gui=none
 
-
+hi link MyTagListFileName	Directory 
+hi link MyTagListComment	String
