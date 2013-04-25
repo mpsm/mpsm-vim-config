@@ -21,3 +21,6 @@ colorscheme wombat
 
 " filetype specific "
 filetype plugin indent on
+
+" plugin behaviour "
+let g:SuperTabDefaultCompletionType = "context"
