@@ -12,6 +12,7 @@ set nowrap
 set encoding=utf-8
 set laststatus=2
 set t_Co=256
+set bs=2
 
 " APPEARANCE "
 syntax on
