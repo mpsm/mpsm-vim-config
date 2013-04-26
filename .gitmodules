@@ -13,3 +13,9 @@
 [submodule "bundle/conque"]
 	path = bundle/conque
 	url = https://github.com/vim-scripts/Conque-Shell
+[submodule "bundle/minibufexpl"]
+	path = bundle/minibufexpl
+	url = https://github.com/fholgado/minibufexpl.vim
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab
