@@ -25,6 +25,7 @@ filetype plugin indent on
 
 " plugin behaviour "
 let g:SuperTabDefaultCompletionType = "context"
+let g:errormarker_errorgroup = "Error"
 
 " key mappings "
 nnoremap <F5> :GundoToggle<CR>
