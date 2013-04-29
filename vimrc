@@ -25,3 +25,6 @@ filetype plugin indent on
 
 " plugin behaviour "
 let g:SuperTabDefaultCompletionType = "context"
+
+" key mappings "
+nnoremap <F5> :GundoToggle<CR>
