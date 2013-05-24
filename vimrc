@@ -29,4 +29,4 @@ let g:errormarker_errorgroup = "Error"
 
 " key mappings "
 nnoremap <F5> :GundoToggle<CR>
-nnoremap <F7> :make<CR>
+nnoremap <F7> :silent make<CR>:redraw!<CR>
