@@ -25,3 +25,6 @@
 [submodule "bundle/errormarker"]
 	path = bundle/errormarker
 	url = https://github.com/vim-scripts/errormarker.vim
+[submodule "bundle/conque"]
+	path = bundle/conque
+	url = https://github.com/carlobaldassi/ConqueTerm
