@@ -31,3 +31,8 @@ let g:errormarker_errorgroup = "Error"
 " key mappings "
 nnoremap <F5> :GundoToggle<CR>
 nnoremap <F7> :silent make<CR>:redraw!<CR>
+
+" autoload plugins "
+augroup filetype
+	au! BufRead,BufNewFile *.proto setfiletype proto
+augroup end
