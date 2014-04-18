@@ -28,3 +28,6 @@
 [submodule "bundle/conque"]
 	path = bundle/conque
 	url = https://github.com/carlobaldassi/ConqueTerm
+[submodule "bundle/badwolf"]
+	path = bundle/badwolf
+	url = https://github.com/sjl/badwolf.git
