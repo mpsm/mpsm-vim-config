@@ -19,7 +19,7 @@ set fileencodings=ucs-bom,utf-8,default,cp1250,latin1
 syntax on
 let g:Powerline_symbols = 'fancy'
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
-colorscheme wombat
+colorscheme badwolf
 
 " filetype specific "
 filetype plugin indent on
