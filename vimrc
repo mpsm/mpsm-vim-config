@@ -20,6 +20,10 @@ syntax on
 let g:Powerline_symbols = 'fancy'
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme badwolf
+if &diff
+	colorscheme gruvbox
+	set background=dark
+endif
 
 " filetype specific "
 filetype plugin indent on
