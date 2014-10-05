@@ -24,6 +24,11 @@ if &diff
 	colorscheme gruvbox
 	set background=dark
 endif
+if has("gui_running")
+	set go-=T
+	set go-=r
+	set go-=L
+endif
 
 " filetype specific "
 filetype plugin indent on
