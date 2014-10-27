@@ -14,6 +14,7 @@ set laststatus=2
 set t_Co=256
 set bs=2
 set fileencodings=ucs-bom,utf-8,default,cp1250,latin1
+set shell=/bin/sh
 
 " APPEARANCE "
 syntax on
