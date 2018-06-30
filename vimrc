@@ -18,9 +18,9 @@ set shell=/bin/sh
 
 " APPEARANCE "
 syntax on
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
 let g:Powerline_symbols = 'fancy'
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme badwolf
