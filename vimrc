@@ -24,10 +24,7 @@ python3 del powerline_setup
 let g:Powerline_symbols = 'fancy'
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme badwolf
-if &diff
-	colorscheme gruvbox
-	set background=dark
-endif
+
 if has("gui_running")
 	set go-=T
 	set go-=r
@@ -38,11 +35,9 @@ endif
 filetype plugin indent on
 
 " plugin behaviour "
-let g:SuperTabDefaultCompletionType = "context"
 let g:errormarker_errorgroup = "Error"
 
 " key mappings "
-nnoremap <F5> :GundoToggle<CR>
 nnoremap <F7> :silent make<CR>:redraw!<CR>
 
 " autoload plugins "
