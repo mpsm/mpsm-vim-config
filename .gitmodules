@@ -1,36 +1,21 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
-[submodule "bundle/csapprox"]
-	path = bundle/csapprox
-	url = https://github.com/godlygeek/csapprox
 [submodule "bundle/dirdiff"]
 	path = bundle/dirdiff
 	url = https://github.com/vim-scripts/DirDiff.vim
 [submodule "bundle/minibufexpl"]
 	path = bundle/minibufexpl
 	url = https://github.com/fholgado/minibufexpl.vim
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = https://github.com/ervandew/supertab
 [submodule "bundle/vim-autoclose"]
 	path = bundle/vim-autoclose
 	url = https://github.com/Townk/vim-autoclose
-[submodule "bundle/gundo"]
-	path = bundle/gundo
-	url = http://github.com/sjl/gundo.vim.git
 [submodule "bundle/errormarker"]
 	path = bundle/errormarker
 	url = https://github.com/vim-scripts/errormarker.vim
-[submodule "bundle/conque"]
-	path = bundle/conque
-	url = https://github.com/carlobaldassi/ConqueTerm
 [submodule "bundle/badwolf"]
 	path = bundle/badwolf
 	url = https://github.com/sjl/badwolf.git
-[submodule "bundle/gruvbox"]
-	path = bundle/gruvbox
-	url = https://github.com/morhetz/gruvbox/
 [submodule "bundle/vim-bitbake"]
 	path = bundle/vim-bitbake
 	url = https://github.com/kergoth/vim-bitbake
