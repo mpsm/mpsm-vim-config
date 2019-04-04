@@ -24,7 +24,9 @@ python3 del powerline_setup
 let g:Powerline_symbols = 'fancy'
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme monokai
-let Tlist_Use_Right_Window = 1
+"let Tlist_Use_Right_Window = 1
+let g:NERDTreeWinPos = "right"
+
 
 if has("gui_running")
 	set go-=T
@@ -54,11 +56,11 @@ function IDE_Hide()
 endfunction
 
 function IDE_Show()
-	NERDTree
 	copen10
 	TlistOpen
-	wincmd w
-	wincmd w
+	NERDTree
+	copen10
+	wincmd W
 endfunction
 command IDEShow call IDE_Show()
 command IDEHide call IDE_Hide()
