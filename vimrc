@@ -55,9 +55,10 @@ endfunction
 
 function IDE_Show()
 	NERDTree
-	copen
-	resize 10
+	copen10
 	TlistOpen
+	wincmd w
+	wincmd w
 endfunction
 command IDEShow call IDE_Show()
 command IDEHide call IDE_Hide()
