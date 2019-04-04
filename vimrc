@@ -24,9 +24,8 @@ python3 del powerline_setup
 let g:Powerline_symbols = 'fancy'
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme monokai
-"let Tlist_Use_Right_Window = 1
+highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
 let g:NERDTreeWinPos = "right"
-
 
 if has("gui_running")
 	set go-=T
@@ -42,6 +41,7 @@ let g:errormarker_errorgroup = "Error"
 
 " key mappings "
 nnoremap <F7> :silent make<CR>:redraw!<CR>
+nnoremap <S-F7> :silent make clean<CR>:redraw!<CR>
 
 " autoload plugins "
 augroup filetype
