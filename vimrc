@@ -24,6 +24,7 @@ python3 del powerline_setup
 let g:Powerline_symbols = 'fancy'
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme monokai
+let Tlist_Use_Right_Window = 1
 
 if has("gui_running")
 	set go-=T
@@ -44,3 +45,19 @@ nnoremap <F7> :silent make<CR>:redraw!<CR>
 augroup filetype
 	au! BufRead,BufNewFile *.proto setfiletype proto
 augroup end
+
+" custom functions "
+function IDE_Hide()
+	cclose
+	TlistClose
+	NERDTreeClose
+endfunction
+
+function IDE_Show()
+	NERDTree
+	copen
+	resize 10
+	TlistOpen
+endfunction
+command IDEShow call IDE_Show()
+command IDEHide call IDE_Hide()
