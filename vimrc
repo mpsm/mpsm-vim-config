@@ -23,7 +23,7 @@ python3 powerline_setup()
 python3 del powerline_setup
 let g:Powerline_symbols = 'fancy'
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
-colorscheme badwolf
+colorscheme monokai
 
 if has("gui_running")
 	set go-=T
