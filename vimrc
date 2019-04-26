@@ -49,6 +49,7 @@ nnoremap <S-F7> :silent make clean<CR>:redraw!<CR>
 " autoload plugins "
 augroup filetype
 	au! BufRead,BufNewFile *.proto setfiletype proto
+	au! BufRead,BufNewFile meson.build setfiletype meson
 augroup end
 
 " custom functions "
