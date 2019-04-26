@@ -38,6 +38,7 @@ filetype plugin indent on
 
 " plugin behaviour "
 let g:errormarker_errorgroup = "Error"
+set diffopt+=vertical
 
 " key mappings "
 nnoremap <F7> :silent make<CR>:redraw!<CR>
