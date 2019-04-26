@@ -2,7 +2,7 @@
 set nocompatible
 
 " PLUGIN MANAGEMENT "
-call pathogen#infect() 
+call pathogen#infect()
 
 " GENERAL "
 set novb
@@ -39,6 +39,8 @@ filetype plugin indent on
 " plugin behaviour "
 let g:errormarker_errorgroup = "Error"
 set diffopt+=vertical
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
 
 " key mappings "
 nnoremap <F7> :silent make<CR>:redraw!<CR>
